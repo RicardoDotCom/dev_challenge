@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS 'books' (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    titulo TEXT NOT NULL,
+    editora TEXT NOT NULL,
+    foto TEXT NOT NULL,
+    autor TEXT NOT NULL
+);
